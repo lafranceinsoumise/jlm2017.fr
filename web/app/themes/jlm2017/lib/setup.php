@@ -47,6 +47,17 @@ function setup() {
   // Use main stylesheet for visual editor
   // To add custom styles edit /assets/styles/layouts/_tinymce.scss
   add_editor_style(Assets\asset_path('styles/main.css'));
+
+  // Enable custom header
+  add_theme_support('custom-header', array(
+    'default-image'          => '',
+    'width'                  => 0,
+    'height'                 => 0,
+    'flex-height'            => true,
+    'flex-width'             => true,
+    'uploads'                => true,
+    'default-text-color'     => '#fff',
+  ));
 }
 add_action('after_setup_theme', __NAMESPACE__ . '\\setup');
 
@@ -85,7 +96,7 @@ function display_sidebar() {
     // @link https://codex.wordpress.org/Conditional_Tags
     is_404(),
     is_front_page(),
-    is_page_template('template-custom.php'),
+    is_page_template('template-no-sidebar.php')
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
