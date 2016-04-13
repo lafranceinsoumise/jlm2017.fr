@@ -58,6 +58,8 @@ function setup() {
     'uploads'                => true,
     'default-text-color'     => '#fff',
   ));
+
+  add_theme_support('custom-logo');
 }
 add_action('after_setup_theme', __NAMESPACE__ . '\\setup');
 

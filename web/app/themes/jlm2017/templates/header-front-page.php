@@ -3,7 +3,15 @@
     <div class="container container-menu">
       <div class="row">
         <div class="logo">
-          <img alt="<?php bloginfo('name'); ?>" src="">
+          <?php
+            if (has_custom_logo()) {
+              the_custom_logo();
+            } else { ?>
+              <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>">
+                <?php bloginfo('name'); ?>
+              </a> <?php
+            }
+          ?>
         </div>
       </div>
       <div class="row row-menu">
