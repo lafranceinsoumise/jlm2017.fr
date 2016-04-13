@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f23940d25086234e4bb0c14690731561",
-    "content-hash": "d8b8319936278e4bbb766a60ed498b25",
+    "hash": "0539669a95f726d498c8292b24260dd1",
+    "content-hash": "d1055f6eeac35761150fbf5babf7573c",
     "packages": [
         {
             "name": "composer/installers",
@@ -385,16 +385,55 @@
             "time": "2015-12-29 15:10:30"
         },
         {
-            "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.4.4",
+            "name": "wp-api/basic-auth",
+            "version": "dev-master",
             "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.4.4"
+                "type": "git",
+                "url": "https://github.com/WP-API/Basic-Auth.git",
+                "reference": "d20ac188cd347da808248d3663ab5e9b5cf8c854"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.4.zip",
+                "url": "https://api.github.com/repos/WP-API/Basic-Auth/zipball/d20ac188cd347da808248d3663ab5e9b5cf8c854",
+                "reference": "d20ac188cd347da808248d3663ab5e9b5cf8c854",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Basic Authentication handler for the JSON API, used for development and debugging purposes",
+            "time": "2015-03-26 14:02:26"
+        },
+        {
+            "name": "wpackagist-plugin/rest-api",
+            "version": "2.0-beta13",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rest-api/",
+                "reference": "tags/2.0-beta13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rest-api/"
+        },
+        {
+            "name": "wpackagist-plugin/siteorigin-panels",
+            "version": "2.4.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
+                "reference": "tags/2.4.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -507,7 +546,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wpackagist-plugin/rest-api": 10,
+        "wp-api/basic-auth": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
