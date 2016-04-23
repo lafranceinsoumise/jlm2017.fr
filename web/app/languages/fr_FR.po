@@ -1,14 +1,14 @@
-# Translation of Development (4.5.x) in French (France)
-# This file is distributed under the same license as the Development (4.5.x) package.
+# Translation of 4.5.x in French (France)
+# This file is distributed under the same license as the 4.5.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-13 11:04:34+0000\n"
+"PO-Revision-Date: 2016-04-21 13:31:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: GlotPress/2.1.0-alpha\n"
-"Project-Id-Version: Development (4.5.x)\n"
+"Project-Id-Version: 4.5.x\n"
 
 #. translators: Translate this to the correct language tag for your locale, see
 #. https://www.w3.org/International/articles/language-tags/ for reference. Do
@@ -116,10 +116,6 @@ msgctxt "user dropdown"
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: wp-includes/user.php:218
-msgid "<strong>ERROR</strong>: Invalid email address."
-msgstr "<strong>ERREUR</strong>&nbsp;: Adresse email invalide"
-
 #. translators: %s: email address
 #: wp-includes/user.php:236
 msgid "<strong>ERROR</strong>: The password you entered for the email address %s is incorrect."
@@ -132,6 +128,10 @@ msgstr "<strong>ERREUR</strong>&nbsp;: Le champ e-mail est vide."
 #: wp-login.php:848
 msgid "Your session has expired. Please log in to continue where you left off."
 msgstr "Votre session a expirée. Veuillez vous reconnecter pour reprendre là vous vous étiez arrêté."
+
+#: wp-includes/user.php:218
+msgid "<strong>ERROR</strong>: Invalid email address."
+msgstr "<strong>ERREUR</strong>&nbsp;: Adresse e-mail invalide"
 
 #: wp-includes/taxonomy.php:515
 msgid "Unregistering a built-in taxonomy is not allowed"
@@ -181,7 +181,7 @@ msgstr "Brouillon"
 msgid "<strong>ERROR</strong>: Invalid username, email address or incorrect password."
 msgstr "<strong>ERREUR</strong> : Nom d'utilisateur, e-mail ou mot de passe invalide."
 
-#: wp-includes/post-template.php:1539
+#: wp-includes/post-template.php:1536
 msgctxt "post password form"
 msgid "Enter"
 msgstr "Valider"
@@ -250,10 +250,6 @@ msgstr "<strong>ERREUR</strong> : votre nom est trop long."
 msgid "<strong>ERROR</strong>: your email address is too long."
 msgstr "<strong>ERREUR</strong> : votre e-mail est trop long."
 
-#: wp-includes/comment.php:2904
-msgid "<strong>ERROR</strong>: your comment is too long."
-msgstr "<strong>ERREUR</strong> : votre commentaire est trop long."
-
 #: wp-includes/comment.php:235
 msgctxt "comment status"
 msgid "Approved"
@@ -273,13 +269,13 @@ msgstr "Indésirable"
 msgid "<strong>ERROR</strong>: your url is too long."
 msgstr "<strong>ERREUR</strong>&nbsp;: votre url est trop longue."
 
+#: wp-includes/comment.php:2904
+msgid "<strong>ERROR</strong>: your comment is too long."
+msgstr "<strong>ERREUR</strong> : votre commentaire est trop long."
+
 #: wp-includes/class-wp-customize-manager.php:1964
 msgid "Logo"
 msgstr "Logo"
-
-#: wp-includes/class-wp-editor.php:1046
-msgid "Paste URL or type to search"
-msgstr "Collez ou saisissez l'URL pour rechercher"
 
 #. translators: 1: index.php, 2: Codex URL, 3: style.css
 #: wp-includes/class-wp-theme.php:273
@@ -294,6 +290,10 @@ msgstr "https://codex.wordpress.org/fr:Thèmes_Enfant"
 #: wp-includes/class-wp-metadata-lazyloader.php:122
 msgid "Invalid object type"
 msgstr "Type d&rsquo;objet invalide"
+
+#: wp-includes/class-wp-editor.php:1046
+msgid "Paste URL or type to search"
+msgstr "Collez ou saisissez l’URL à rechercher"
 
 #: wp-includes/class-wp-customize-manager.php:1931
 #: wp-includes/class-wp-customize-manager.php:2008
@@ -568,14 +568,6 @@ msgstr "Auteur&nbsp;:"
 msgid "Error reconnecting to the database"
 msgstr "Erreur de reconnexion à la base de données"
 
-#: wp-includes/wp-db.php:1538
-msgid "Are you sure that you have typed the correct hostname?"
-msgstr "Êtes-vous certain(e) d&rsquo;avoir saisi le bon nom d&rsquo;hôte (hostname)&nbsp;?"
-
-#: wp-includes/wp-db.php:1539 wp-includes/wp-db.php:1642
-msgid "Are you sure that the database server is running?"
-msgstr "Êtes-vous certain(e) que le serveur de la base de données fonctionne correctement&nbsp;?"
-
 #. translators: %s: support forums URL
 #: wp-includes/wp-db.php:1544 wp-includes/wp-db.php:1648
 msgid "If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href=\"%s\">WordPress Support Forums</a>."
@@ -586,27 +578,31 @@ msgstr "Si vous n&rsquo;êtes pas sûr(e) de connaître ces termes, vous devriez
 msgid "This means that we lost contact with the database server at %s. This could mean your host&#8217;s database server is down."
 msgstr "Cela signifie que nous avons perdu le contact avec le serveur de base de données à l&rsquo;adresse %s. Cela peut signifier que le serveur de votre base de données ne fonctionne plus."
 
+#: wp-includes/wp-db.php:1538
+msgid "Are you sure that you have typed the correct hostname?"
+msgstr "Confirmez-vous avoir saisi le bon nom d&rsquo;hôte (hostname)&nbsp;?"
+
+#: wp-includes/wp-db.php:1539 wp-includes/wp-db.php:1642
+msgid "Are you sure that the database server is running?"
+msgstr "Confirmez-vous que le serveur de la base de données fonctionne correctement&nbsp;?"
+
 #: wp-includes/wp-db.php:1643
 msgid "Are you sure that the database server is not under particularly heavy load?"
-msgstr "Êtes-vous sûr(e) que le serveur de la base de données n&rsquo;est pas en train de plier sous le nombre de requêtes&nbsp;?"
-
-#: wp-includes/wp-db.php:1537
-msgid "Are you sure you have the correct username and password?"
-msgstr "Êtes-vous certain(e) d'utiliser le bon nom d'utilisateur et le bon mot de passe&nbsp;?"
+msgstr "Confirmez-vous que le serveur de la base de données n&rsquo;est pas en train de plier sous le nombre de requêtes&nbsp;?"
 
 #. translators: 1: wp-config.php. 2: database host
 #: wp-includes/wp-db.php:1531
 msgid "This either means that the username and password information in your %1$s file is incorrect or we can&#8217;t contact the database server at %2$s. This could mean your host&#8217;s database server is down."
 msgstr "Cela signifie soit que l&rsquo;identifiant ou le mot de passe dans votre fichier %1$s n&rsquo;est pas correct, soit que nous ne pouvons pas contacter le serveur de base de données à l&rsquo;adresse %2$s. Cela peut signifier que votre serveur de base de données est tombé."
 
+#: wp-includes/wp-db.php:1537
+msgid "Are you sure you have the correct username and password?"
+msgstr "Confirmez-vous utiliser le bon nom d'utilisateur et le bon mot de passe&nbsp;?"
+
 #. translators: %s: support forums URL
 #: wp-includes/wp-db.php:1084
 msgid "If you don&#8217;t know how to set up a database you should <strong>contact your host</strong>. If all else fails you may find help at the <a href=\"%s\">WordPress Support Forums</a>."
 msgstr "Si vous ne savez pas comment configurer une base de données, vous devriez <strong>contacter votre hébergeur</strong>. Pour tout autre problème, vous devriez trouver de l&rsquo;aide dans les <a href=\"%s\">Forums d&rsquo;entraide de WordPress</a>."
-
-#: wp-includes/wp-db.php:1065
-msgid "Are you sure it exists?"
-msgstr "Êtes-vous certain(e) que cela existe&nbsp;?"
 
 #. translators: 1: database user, 2: database name
 #: wp-includes/wp-db.php:1069
@@ -626,6 +622,10 @@ msgstr "Nous avons pu nous connecter au serveur de la base données (ce qui sign
 #: wp-includes/wp-db.php:1076
 msgid "On some systems the name of your database is prefixed with your username, so it would be like <code>username_%1$s</code>. Could that be the problem?"
 msgstr "Dans certaines configurations système, le nom de la base de données a pour préfixe votre nom d&rsquo;utilisateur, cela devrait ressembler à <code>nom_d_utilisateur_%1$s</code>. Cela pourrait-il être le problème&nbsp;?"
+
+#: wp-includes/wp-db.php:1065
+msgid "Are you sure it exists?"
+msgstr "Confirmez-vous que cela existe&nbsp;?"
 
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:135
 msgid "The tag cloud will not be displayed since there are no taxonomies that support the tag cloud widget."
@@ -702,13 +702,13 @@ msgstr "%1$s (depuis la %2$s&nbsp;; utilisez %3$s à la place)"
 msgid "The specified namespace could not be found."
 msgstr "L&rsquo;espace de nom (namespace) spécifié n&rsquo;a pas pu être trouvé."
 
-#: wp-includes/rest-api/class-wp-rest-server.php:924
-msgid "No route was found matching the URL and request method"
-msgstr "Aucun itinéraire n'a été trouvé correspondant à l'URL et à la méthode de requête"
-
 #: wp-includes/rest-api/class-wp-rest-server.php:882
 msgid "You don't have permission to do this."
 msgstr "Vous n&rsquo;avez pas le droit de faire cela."
+
+#: wp-includes/rest-api/class-wp-rest-server.php:924
+msgid "No route was found matching the URL and request method"
+msgstr "Aucun itinéraire n’a été trouvé correspondant à l’URL et à la méthode de requête"
 
 #: wp-includes/rest-api/class-wp-rest-server.php:846
 msgid "The handler for the route is invalid"
@@ -1917,7 +1917,7 @@ msgid "<strong>Could not find site %1$s.</strong> Searched for table %2$s in dat
 msgstr "<strong>Impossible de trouver le site %1$s.</strong> Nous avons cherché dans la table %2$s de la base de données %3$s. Est-ce bien correct&nbsp;?"
 
 #. translators: revision date format, see http://php.net/date
-#: wp-includes/post-template.php:1628 wp-includes/post-template.php:1664
+#: wp-includes/post-template.php:1625 wp-includes/post-template.php:1661
 msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
 msgstr "j F Y à G \\h i \\m\\i\\n"
@@ -3554,7 +3554,7 @@ msgstr "Le répertoire du thème &laquo;&nbsp;%s&nbsp;&raquo; n&rsquo;existe pas
 msgid "ERROR: This is not a valid feed template."
 msgstr "ERREUR&nbsp;: ce n&rsquo;est pas un flux valide."
 
-#: wp-includes/post-template.php:1538
+#: wp-includes/post-template.php:1535
 msgid "This content is password protected. To view it please enter your password below:"
 msgstr "Cet article est protégé par un mot de passe. Pour le lire, veuillez saisir votre mot de passe ci-dessous&nbsp;:"
 
@@ -3657,7 +3657,7 @@ msgstr[1] "%s années"
 msgid "#%d (no title)"
 msgstr "#%d (pas de titre)"
 
-#: wp-includes/post-template.php:1738
+#: wp-includes/post-template.php:1735
 msgid "JavaScript must be enabled to use this feature."
 msgstr "JavaScript doit être activé pour utiliser cette fonctionnalité."
 
@@ -3701,13 +3701,13 @@ msgid "Possible reason: your host may have disabled the mail() function."
 msgstr "Cause possible&nbsp;: votre hébergeur a peut-être désactivé la fonction mail()."
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1630
+#: wp-includes/post-template.php:1627
 msgctxt "post revision title extra"
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Sauvegarde automatique]"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1632
+#: wp-includes/post-template.php:1629
 msgctxt "post revision title extra"
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Version actuelle]"
@@ -3736,7 +3736,7 @@ msgstr "La page de connexion s&rsquo;ouvrira dans une nouvelle fenêtre. Après 
 
 #. translators: post revision title: 1: author avatar, 2: author name, 3: time
 #. ago, 4: date
-#: wp-includes/post-template.php:1674
+#: wp-includes/post-template.php:1671
 msgctxt "post revision title"
 msgid "%1$s %2$s, %3$s ago (%4$s)"
 msgstr "%1$s %2$s, il y a %3$s (%4$s)"
@@ -5562,11 +5562,11 @@ msgstr "L&rsquo;adresse de messagerie fournie ne semble pas être valide. Veuill
 
 #: wp-includes/formatting.php:3762
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
-msgstr "L&rsquo;adresse de WordPress que vous avez saisie ne semble pas être valide. Veuillez entrer une adresse valide."
+msgstr "L&rsquo;adresse de WordPress que vous avez saisie ne semble pas être valide. Veuillez saisir une adresse valide."
 
 #: wp-includes/formatting.php:3775
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
-msgstr "L&rsquo;adresse de site que vous avez saisie ne semble pas être valide. Veuillez entrer une adresse valide."
+msgstr "L&rsquo;adresse de site que vous avez saisie ne semble pas être valide. Veuillez saisir une adresse valide."
 
 #: wp-includes/taxonomy.php:2839
 msgid "A term with the name provided already exists with this parent."
@@ -6803,23 +6803,23 @@ msgstr "Privé&nbsp;: %s"
 msgid "There is no excerpt because this is a protected post."
 msgstr "Il n&rsquo;y pas d&rsquo;extrait, car cet article est protégé."
 
-#: wp-includes/post-template.php:838
+#: wp-includes/post-template.php:835
 msgid "Next page"
 msgstr "Page suivante"
 
-#: wp-includes/post-template.php:839
+#: wp-includes/post-template.php:836
 msgid "Previous page"
 msgstr "Page précédente"
 
-#: wp-includes/post-template.php:1277
+#: wp-includes/post-template.php:1274
 msgid "Home"
 msgstr "Accueil"
 
-#: wp-includes/post-template.php:1681
+#: wp-includes/post-template.php:1678
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Sauvegarde automatique]"
 
-#: wp-includes/post-template.php:1682
+#: wp-includes/post-template.php:1679
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Version actuelle]"
 
@@ -7469,7 +7469,7 @@ msgstr "<strong>ERREUR</strong>&nbsp;: veuillez saisir une adresse de messagerie
 msgid "Username or Email"
 msgstr "Identifiant ou adresse de messagerie"
 
-#: wp-includes/deprecated.php:1840 wp-includes/post-template.php:1442
+#: wp-includes/deprecated.php:1840 wp-includes/post-template.php:1439
 msgid "Missing Attachment"
 msgstr "Fichier joint manquant"
 
@@ -7646,7 +7646,7 @@ msgstr "Un commentaire"
 msgid "Edit This"
 msgstr "Modifier"
 
-#: wp-includes/post-template.php:832
+#: wp-includes/post-template.php:829
 msgid "Pages:"
 msgstr "Pages&nbsp;:"
 
@@ -7946,7 +7946,7 @@ msgstr "Modifier l&rsquo;article"
 msgid "All Categories"
 msgstr "Toutes"
 
-#: wp-includes/post-template.php:1143 wp-includes/theme-compat/sidebar.php:90
+#: wp-includes/post-template.php:1140 wp-includes/theme-compat/sidebar.php:90
 #: wp-includes/widgets/class-wp-widget-pages.php:31
 #: wp-includes/widgets/class-wp-widget-pages.php:55
 msgid "Pages"
@@ -8236,7 +8236,7 @@ msgstr "Activer"
 msgid "Username:"
 msgstr "Identifiant&nbsp;:"
 
-#: wp-activate.php:116 wp-includes/post-template.php:1539
+#: wp-activate.php:116 wp-includes/post-template.php:1536
 msgid "Password:"
 msgstr "Mot de passe&nbsp;:"
 
