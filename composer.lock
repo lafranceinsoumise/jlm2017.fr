@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fda52feb4a0aae4a93c17ebb6a6fa50a",
-    "content-hash": "bad5fa0c512482e21f825f6d7ddcd99e",
+    "hash": "c17f39fb368b8b096e5946d09bd1c148",
+    "content-hash": "3790a236cbd2d4e49dc4e794830ad9ca",
     "packages": [
         {
             "name": "composer/installers",
@@ -109,16 +109,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5.1",
+            "version": "4.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "494c0f663ff292334947097192392663b596a49e"
+                "reference": "e992d00a34ea84d55c80023d27d5bcb839069add"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/494c0f663ff292334947097192392663b596a49e",
-                "reference": "494c0f663ff292334947097192392663b596a49e",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/e992d00a34ea84d55c80023d27d5bcb839069add",
+                "reference": "e992d00a34ea84d55c80023d27d5bcb839069add",
                 "shasum": ""
             },
             "require": {
@@ -142,7 +142,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-04-26 18:01:25"
+            "time": "2016-05-06 18:16:20"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -194,16 +194,16 @@
         },
         {
             "name": "oscarotero/env",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/env.git",
-                "reference": "8836fc53726466fea17137c2f2622d89de51cd67"
+                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/env/zipball/8836fc53726466fea17137c2f2622d89de51cd67",
-                "reference": "8836fc53726466fea17137c2f2622d89de51cd67",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
+                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
                 "shasum": ""
             },
             "require": {
@@ -232,7 +232,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2015-12-31 12:34:29"
+            "time": "2016-05-08 17:14:32"
         },
         {
             "name": "roots/soil",
@@ -424,15 +424,15 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.4.6",
+            "version": "2.4.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.4.6"
+                "reference": "tags/2.4.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -464,15 +464,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.2.4",
+            "version": "3.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.2.4"
+                "reference": "tags/3.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.2.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.2.5.zip",
                 "reference": null,
                 "shasum": null
             },
