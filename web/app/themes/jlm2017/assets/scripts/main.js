@@ -16,7 +16,7 @@
       itemSelector: 'article',
       percentPosition: true
     });
-  }
+  };
 
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
@@ -52,9 +52,9 @@
     }
   };
 
-  Sage['archive'] = Sage['blog'];
-  Sage['category'] = Sage['blog'];
-  Sage['search'] = Sage['blog'];
+  Sage.archive = Sage.blog;
+  Sage.category = Sage.blog;
+  Sage.search = Sage.blog;
 
   // The routing fires all common scripts, followed by the page specific scripts.
   // Add additional events for more control over timing e.g. a finalize event
