@@ -9,7 +9,8 @@
   "dependencies": {
     "bootstrap-sass": "3.3.6",
     "font-awesome": "^4.6.0",
-    "masonry": "^4.1.0"
+    "masonry": "^4.1.0",
+    "imagesloaded": "^4.1.0"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -38,6 +39,11 @@
       "main": [
         "./scss/font-awesome.scss",
         "./fonts/*"
+      ]
+    },
+    "imagesloaded": {
+      "main": [
+        "imagesloaded.js"
       ]
     },
     "masonry": {

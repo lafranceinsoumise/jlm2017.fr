@@ -12,9 +12,12 @@
 
 (function($) {
   var initMasonry = function() {
-    new Masonry('.page-content', {
+    var $grid = new Masonry('.page-content', {
       itemSelector: 'article',
       percentPosition: true
+    });
+    $('.page-content').imagesLoaded().progress(function() {
+      $grid.layout();
     });
   };
 
