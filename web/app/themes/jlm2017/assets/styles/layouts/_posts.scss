@@ -7,21 +7,27 @@
     .nav-links {
       @include make-row()
       .nav-previous {
-        &::before {
-          content: "\02190\00a0";
-          font-weight: bolder;
-        }
-        text-align: center;
-        @include make-md-column-offset(3);
-        @include make-md-column(3);
-      }
-      .nav-next {
         &::after {
           content: "\00a0\02192";
           font-weight: bolder;
         }
         text-align: center;
         @include make-md-column(3);
+        @include make-md-column-push(6);
+        @include make-xs-column(6);
+        @include make-xs-column-push(6);
+      }
+      .nav-next {
+        &::before {
+          content: "\02190\00a0";
+          font-weight: bolder;
+        }
+        text-align: center;
+        @include make-md-column-offset(3);
+        @include make-md-column-pull(3);
+        @include make-md-column(3);
+        @include make-xs-column(6);
+        @include make-xs-column-pull(6);
       }
       margin-bottom: 20px;
     }
