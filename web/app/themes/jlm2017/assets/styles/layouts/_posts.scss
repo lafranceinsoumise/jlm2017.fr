@@ -4,8 +4,11 @@
   }
 
   .posts-navigation {
+    @include make-xs-column(12);
     .nav-links {
-      @include make-row()
+      @include make-row();
+      margin-bottom: 20px;
+
       .nav-previous {
         &::after {
           content: "\00a0\02192";
@@ -29,7 +32,6 @@
         @include make-xs-column(6);
         @include make-xs-column-pull(6);
       }
-      margin-bottom: 20px;
     }
   }
 
