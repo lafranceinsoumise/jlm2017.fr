@@ -24,7 +24,7 @@
   // from https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
   var responsiveVideo = function() {
     // Find all YouTube videos
-    var $allVideos = $("iframe[src*='//www.youtube.com']"),
+    var $allVideos = $("iframe[src*='//www.youtube.com'], iframe[src*='//www.facebook.com']"),
     // The element that is fluid width
     $fluidEl = $(".entry-content-asset");
     // Figure out and save aspect ratio for each video
