@@ -6,7 +6,7 @@ dans
 
   foreach ($categories as $key => $category) {
 ?>
-<a href="<?= $category->cat_ID ?>">
+<a href="<?= get_category_link($category->cat_ID) ?>">
   <?= $category->name; ?>
 </a><?= $key < count($categories) - 1 ? ', ': '' ?>
 <?php } ?>
