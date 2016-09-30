@@ -45,7 +45,8 @@
     "wpackagist-plugin/rest-api": "^2.0-beta13",
     "wp-api/basic-auth": "dev-master",
     "wpackagist-plugin/so-widgets-bundle": "^1.5",
-    "wpackagist-plugin/redirection": "^2.4"
+    "wpackagist-plugin/redirection": "^2.4",
+    "wpackagist-plugin/contact-form-7": "^4.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
