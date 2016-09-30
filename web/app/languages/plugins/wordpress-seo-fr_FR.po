@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-07 22:40:13+0000\n"
+"PO-Revision-Date: 2016-09-30 07:35:35+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -324,7 +324,7 @@ msgstr "Annuler"
 #. Console.
 #: admin/google_search_console/views/gsc-display.php:41
 msgid "To allow %1$s to fetch your %2$s information, please enter your Google Authorization Code. Clicking the button below will open a new window."
-msgstr "Pour permettre à %1$s de récupérer vos informations de %2$s, veuillez saisir votre code d’autorisation de Google. lorsque vous cliquerez sur le bouton ci-dessous une nouvelle fenêtre s’ouvrira."
+msgstr "Pour permettre à %1$s de récupérer vos informations de %2$s, veuillez saisir votre code d’autorisation de Google. Lorsque vous cliquerez sur le bouton ci-dessous une nouvelle fenêtre s’ouvrira."
 
 #: admin/google_search_console/views/gsc-display.php:46
 msgid "Enter your Google Authorization Code and press the Authenticate button."
@@ -397,7 +397,7 @@ msgstr "Analyse de la lisibilité"
 
 #: admin/views/tabs/metas/general.php:27 admin/views/user-profile.php:83
 msgid "Removes the readability tab from the metabox and disables all readability-related suggestions."
-msgstr "Supprime l’onglet de la lisibilité de la metabox et désactive toutes les suggestions liées à la lisibilité."
+msgstr "Supprime l’onglet de la lisibilité de la boite à méta et désactive toutes les suggestions liées à la lisibilité."
 
 #: admin/views/user-profile.php:77
 msgid "Disable readability analysis"
@@ -2340,7 +2340,7 @@ msgstr "Société ou personne&nbsp;"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:28
 msgid "This data is shown as metadata in your site. It is intended to appear in Google's Knowledge Graph. You can be either a company, or a person, choose either:"
-msgstr "Cette donnée est affichée comme une métadonnée dans votre site. Elle apparaît dans le Knowledge Graph de Google. Vous pouvez être une société ou une personne, choisissez l&rsquo;un ou l’autre&nbsp;:"
+msgstr "Cette donnée est affichée comme une métadonnée dans votre site. Elle apparaît dans le Knowledge Graph de Google. Vous pouvez être une société ou une personne, choisissez l’un ou l’autre :"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:33
 msgid "Choose whether you're a company or person"
