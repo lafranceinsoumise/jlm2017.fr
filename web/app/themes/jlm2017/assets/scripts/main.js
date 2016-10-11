@@ -24,9 +24,9 @@
   // from https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
   var responsiveVideo = function() {
     // Find all YouTube videos
-    var $allVideos = $("iframe[src*='//www.youtube.com'], iframe[src*='//www.facebook.com']"),
-    // The element that is fluid width
-    $fluidEl = $(".entry-content-asset");
+    var $allVideos = $("iframe[src*='//www.youtube.com'], " +
+      "iframe[src*='//www.facebook.com'], " +
+      "iframe[src*='//www.dailymotion.com']");
     // Figure out and save aspect ratio for each video
     $allVideos.each(function() {
       $(this)
@@ -37,10 +37,11 @@
     });
     // When the window is resized
     $(window).resize(function() {
-      var newWidth = $fluidEl.width();
       // Resize all videos according to their own aspect ratio
       $allVideos.each(function() {
         var $el = $(this);
+        var newWidth = $el.parent().width();
+
         $el
           .width(newWidth)
           .height(newWidth * $el.data('aspectRatio'));
