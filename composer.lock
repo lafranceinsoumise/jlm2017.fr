@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8a2196de787410545bf0157eab4721e5",
-    "content-hash": "dff75fd7444fadec7330156134e5eb83",
+    "hash": "63dee41ba91d39ad1ddb00485e9f8347",
+    "content-hash": "d5bcbbda022fe851b5700ebd56d83c1b",
     "packages": [
         {
             "name": "composer/installers",
@@ -416,7 +416,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.5.1.zip",
-                "reference": null,
+                "reference": "tags/4.5.1",
                 "shasum": null
             },
             "require": {
@@ -476,7 +476,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.16.zip",
-                "reference": null,
+                "reference": "tags/2.4.16",
                 "shasum": null
             },
             "require": {
@@ -506,6 +506,26 @@
             "homepage": "https://wordpress.org/plugins/so-widgets-bundle/"
         },
         {
+            "name": "wpackagist-plugin/ultimate-category-excluder",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ultimate-category-excluder/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ultimate-category-excluder.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ultimate-category-excluder/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-seo",
             "version": "3.6",
             "source": {
@@ -516,7 +536,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.6.zip",
-                "reference": null,
+                "reference": "tags/3.6",
                 "shasum": null
             },
             "require": {
