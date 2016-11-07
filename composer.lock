@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "63dee41ba91d39ad1ddb00485e9f8347",
-    "content-hash": "d5bcbbda022fe851b5700ebd56d83c1b",
+    "hash": "ea3b3f6cd19019fe93400600e1aac0b6",
+    "content-hash": "4be3332a97ab71775a54222e170f9315",
     "packages": [
         {
             "name": "composer/installers",
@@ -106,6 +106,57 @@
                 "zikula"
             ],
             "time": "2016-04-13 19:46:30"
+        },
+        {
+            "name": "jlm2017/theme-wp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jlm2017/theme-wp.git",
+                "reference": "723b4eafa4e99384a43c785664be3e56534bea75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jlm2017/theme-wp/zipball/723b4eafa4e99384a43c785664be3e56534bea75",
+                "reference": "723b4eafa4e99384a43c785664be3e56534bea75",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "AGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Guillaume Royer",
+                    "email": "perso@guilro.com",
+                    "homepage": "https://github.com/guilro"
+                },
+                {
+                    "name": "Ben Word",
+                    "email": "ben@benword.com",
+                    "homepage": "https://github.com/retlehs"
+                },
+                {
+                    "name": "Scott Walkinshaw",
+                    "email": "scott.walkinshaw@gmail.com",
+                    "homepage": "https://github.com/swalkinshaw"
+                }
+            ],
+            "description": "The best WordPress starter theme with a modern front-end development workflow. Based on HTML5 Boilerplate, gulp, Bower, and Bootstrap.",
+            "homepage": "https://github.com/guilro/theme-wp/",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/roots/sage/issues",
+                "forum": "https://discourse.roots.io/",
+                "source": "https://github.com/jlm2017/theme-wp/tree/master"
+            },
+            "time": "2016-10-19 16:01:56"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -447,16 +498,16 @@
         },
         {
             "name": "wpackagist-plugin/rest-api",
-            "version": "2.0-beta13",
+            "version": "2.0-beta15",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/rest-api/",
-                "reference": "tags/2.0-beta13"
+                "reference": "tags/2.0-beta15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.zip",
-                "reference": "tags/2.0-beta13",
+                "url": "https://downloads.wordpress.org/plugin/rest-api.2.0-beta15.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -467,16 +518,16 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.4.16",
+            "version": "2.4.18",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.4.16"
+                "reference": "tags/2.4.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.16.zip",
-                "reference": "tags/2.4.16",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.18.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -516,7 +567,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ultimate-category-excluder.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -526,17 +577,37 @@
             "homepage": "https://wordpress.org/plugins/ultimate-category-excluder/"
         },
         {
-            "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.6",
+            "name": "wpackagist-plugin/vanilla-pdf-embed",
+            "version": "0.0.7",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.6"
+                "url": "https://plugins.svn.wordpress.org/vanilla-pdf-embed/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.6.zip",
-                "reference": "tags/3.6",
+                "url": "https://downloads.wordpress.org/plugin/vanilla-pdf-embed.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/vanilla-pdf-embed/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "3.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/3.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.7.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -630,7 +701,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "wpackagist-plugin/rest-api": 10,
-        "wp-api/basic-auth": 20
+        "wp-api/basic-auth": 20,
+        "jlm2017/theme-wp": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
