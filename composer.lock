@@ -113,12 +113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guilro/wp-menu-export.git",
-                "reference": "6d022f3b3e51c38f8fcc08a4cb4eb51898fcae79"
+                "reference": "3f95f6128bf85874f6ad17ac10b672930a34c4e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guilro/wp-menu-export/zipball/6d022f3b3e51c38f8fcc08a4cb4eb51898fcae79",
-                "reference": "6d022f3b3e51c38f8fcc08a4cb4eb51898fcae79",
+                "url": "https://api.github.com/repos/guilro/wp-menu-export/zipball/3f95f6128bf85874f6ad17ac10b672930a34c4e3",
+                "reference": "3f95f6128bf85874f6ad17ac10b672930a34c4e3",
                 "shasum": ""
             },
             "require": {
@@ -129,7 +129,7 @@
                 "source": "https://github.com/guilro/wp-menu-export/tree/master",
                 "issues": "https://github.com/guilro/wp-menu-export/issues"
             },
-            "time": "2016-11-08 22:29:39"
+            "time": "2016-11-08 22:56:28"
         },
         {
             "name": "jlm2017/theme-wp",
