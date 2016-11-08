@@ -57,7 +57,7 @@
     "wpackagist-plugin/redirection": "^2.4",
     "wpackagist-plugin/contact-form-7": "^4.5",
     "wpackagist-plugin/ultimate-category-excluder": "^1.1",
-    "wpackagist-plugin/vanilla-pdf-embed": "^0.0.7",
+    "wpackagist-plugin/vanilla-pdf-embed": "^0.0.8",
     "guilro/wp-menu-export": "dev-master"
   },
   "require-dev": {
