@@ -113,12 +113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guilro/wp-menu-export.git",
-                "reference": "2e8c51c2f210a0905f68ca58a9d3b8a520c1e0a5"
+                "reference": "6d022f3b3e51c38f8fcc08a4cb4eb51898fcae79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guilro/wp-menu-export/zipball/2e8c51c2f210a0905f68ca58a9d3b8a520c1e0a5",
-                "reference": "2e8c51c2f210a0905f68ca58a9d3b8a520c1e0a5",
+                "url": "https://api.github.com/repos/guilro/wp-menu-export/zipball/6d022f3b3e51c38f8fcc08a4cb4eb51898fcae79",
+                "reference": "6d022f3b3e51c38f8fcc08a4cb4eb51898fcae79",
                 "shasum": ""
             },
             "require": {
@@ -129,7 +129,7 @@
                 "source": "https://github.com/guilro/wp-menu-export/tree/master",
                 "issues": "https://github.com/guilro/wp-menu-export/issues"
             },
-            "time": "2016-11-08 10:36:46"
+            "time": "2016-11-08 22:29:39"
         },
         {
             "name": "jlm2017/theme-wp",
@@ -137,12 +137,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jlm2017/theme-wp.git",
-                "reference": "723b4eafa4e99384a43c785664be3e56534bea75"
+                "reference": "e17e79361330d78c99f016e7611335511c1fc99c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jlm2017/theme-wp/zipball/723b4eafa4e99384a43c785664be3e56534bea75",
-                "reference": "723b4eafa4e99384a43c785664be3e56534bea75",
+                "url": "https://api.github.com/repos/jlm2017/theme-wp/zipball/e17e79361330d78c99f016e7611335511c1fc99c",
+                "reference": "e17e79361330d78c99f016e7611335511c1fc99c",
                 "shasum": ""
             },
             "require": {
@@ -180,7 +180,7 @@
                 "forum": "https://discourse.roots.io/",
                 "source": "https://github.com/jlm2017/theme-wp/tree/master"
             },
-            "time": "2016-10-19 16:01:56"
+            "time": "2016-11-08 22:25:10"
         },
         {
             "name": "johnpbloch/wordpress",
