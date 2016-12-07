@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d0c77fba269c41681e7235df0fa2fffe",
-    "content-hash": "cc58413cee7d5a8e0befa8cc74ba61b1",
+    "hash": "63519d991981dcafaa7645306d399784",
+    "content-hash": "59459c653b20ea2ad6f763d1ae2849e6",
     "packages": [
         {
             "name": "composer/installers",
@@ -113,12 +113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guilro/wp-menu-export.git",
-                "reference": "3f95f6128bf85874f6ad17ac10b672930a34c4e3"
+                "reference": "267491ec01798b40621ec3d53e46c8d3dcd2d77f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guilro/wp-menu-export/zipball/3f95f6128bf85874f6ad17ac10b672930a34c4e3",
-                "reference": "3f95f6128bf85874f6ad17ac10b672930a34c4e3",
+                "url": "https://api.github.com/repos/guilro/wp-menu-export/zipball/267491ec01798b40621ec3d53e46c8d3dcd2d77f",
+                "reference": "267491ec01798b40621ec3d53e46c8d3dcd2d77f",
                 "shasum": ""
             },
             "require": {
@@ -129,7 +129,7 @@
                 "source": "https://github.com/guilro/wp-menu-export/tree/master",
                 "issues": "https://github.com/guilro/wp-menu-export/issues"
             },
-            "time": "2016-11-08 22:56:28"
+            "time": "2016-11-11 17:18:06"
         },
         {
             "name": "jlm2017/theme-wp",
@@ -137,12 +137,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jlm2017/theme-wp.git",
-                "reference": "e17e79361330d78c99f016e7611335511c1fc99c"
+                "reference": "6f41782000cf2a2dbbac7ffdfad61f04f60783a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jlm2017/theme-wp/zipball/e17e79361330d78c99f016e7611335511c1fc99c",
-                "reference": "e17e79361330d78c99f016e7611335511c1fc99c",
+                "url": "https://api.github.com/repos/jlm2017/theme-wp/zipball/6f41782000cf2a2dbbac7ffdfad61f04f60783a7",
+                "reference": "6f41782000cf2a2dbbac7ffdfad61f04f60783a7",
                 "shasum": ""
             },
             "require": {
@@ -180,20 +180,20 @@
                 "forum": "https://discourse.roots.io/",
                 "source": "https://github.com/jlm2017/theme-wp/tree/master"
             },
-            "time": "2016-11-08 22:25:10"
+            "time": "2016-12-07 15:12:35"
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.6.1",
+            "version": "4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3"
+                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
-                "reference": "aca8da84b4a699b16b8bcc96d2bc794a4c7b5ae3",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b327faa6feea3a4058178dee7ac8b512bd957e92",
+                "reference": "b327faa6feea3a4058178dee7ac8b512bd957e92",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-09-07 15:01:47"
+            "time": "2016-12-06 18:46:46"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -482,16 +482,16 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.5.1",
+            "version": "4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.5.1"
+                "reference": "tags/4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.5.1.zip",
-                "reference": "tags/4.5.1",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.6.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -542,16 +542,16 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.4.18",
+            "version": "2.4.19",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.4.18"
+                "reference": "tags/2.4.19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.18.zip",
-                "reference": "tags/2.4.18",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.19.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -562,16 +562,16 @@
         },
         {
             "name": "wpackagist-plugin/so-widgets-bundle",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
-                "reference": "tags/1.7.1"
+                "reference": "tags/1.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.7.1.zip",
-                "reference": "tags/1.7.1",
+                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.7.2.zip",
+                "reference": "tags/1.7.2",
                 "shasum": null
             },
             "require": {
@@ -611,7 +611,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/vanilla-pdf-embed.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -622,15 +622,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.8",
+            "version": "3.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.8"
+                "reference": "tags/3.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -644,16 +644,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.7.0",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed"
+                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
-                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/9b324f3a1132459a7274a0ace2e1b766ba80930f",
+                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f",
                 "shasum": ""
             },
             "require": {
@@ -718,7 +718,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-09-01 23:53:02"
+            "time": "2016-11-30 04:02:31"
         }
     ],
     "aliases": [],
