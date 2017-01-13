@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "64e6c1d02d97f39fdbc0d77516eb455b",
-    "content-hash": "39c7b0c01e61ff289aa8293523767522",
+    "hash": "7540d6ae07c45215f871fcfda8efebc1",
+    "content-hash": "a7970916ef67b517562107605e6b4874",
     "packages": [
         {
             "name": "composer/installers",
@@ -137,12 +137,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jlm2017/theme-wp.git",
-                "reference": "6e04b3f55dd6aed500b9570905220341cdffe34b"
+                "reference": "fb1b1f39f93dafcda61849a770a58f521b05d56d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jlm2017/theme-wp/zipball/6e04b3f55dd6aed500b9570905220341cdffe34b",
-                "reference": "6e04b3f55dd6aed500b9570905220341cdffe34b",
+                "url": "https://api.github.com/repos/jlm2017/theme-wp/zipball/fb1b1f39f93dafcda61849a770a58f521b05d56d",
+                "reference": "fb1b1f39f93dafcda61849a770a58f521b05d56d",
                 "shasum": ""
             },
             "require": {
