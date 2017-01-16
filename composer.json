@@ -37,6 +37,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:jlm2017/wp-plugin"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:guilro/wp-menu-export"
     }
   ],
@@ -53,6 +57,7 @@
     "wpackagist-plugin/rest-api": "^2.0-beta13",
     "wp-api/basic-auth": "dev-master",
     "jlm2017/theme-wp": "dev-master#fb1b1f39f93dafcda61849a770a58f521b05d56d",
+    "jlm2017/jlm2017-wordpress-addons": "dev-master",
     "wpackagist-plugin/so-widgets-bundle": "^1.5",
     "wpackagist-plugin/redirection": "^2.4",
     "wpackagist-plugin/contact-form-7": "^4.5",
