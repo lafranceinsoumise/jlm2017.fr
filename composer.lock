@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7e7f0501f93015580df85584714ff143",
-    "content-hash": "59accbead68b7975b80dedbd25f47b51",
+    "hash": "f43d013c7abf13b8641a8627d3e689a3",
+    "content-hash": "52f78eac62de969e3e45e88a2f1a1b3f",
     "packages": [
         {
             "name": "composer/installers",
@@ -501,25 +501,6 @@
             "time": "2016-09-01 10:05:43"
         },
         {
-            "name": "wp-api/basic-auth",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WP-API/Basic-Auth.git",
-                "reference": "d20ac188cd347da808248d3663ab5e9b5cf8c854"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/WP-API/Basic-Auth/zipball/d20ac188cd347da808248d3663ab5e9b5cf8c854",
-                "reference": "d20ac188cd347da808248d3663ab5e9b5cf8c854",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Basic Authentication handler for the JSON API, used for development and debugging purposes",
-            "time": "2015-03-26 14:02:26"
-        },
-        {
             "name": "wpackagist-plugin/contact-form-7",
             "version": "4.6",
             "source": {
@@ -578,46 +559,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/rest-api/"
-        },
-        {
-            "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.4.21",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.4.21"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.21.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/siteorigin-panels/"
-        },
-        {
-            "name": "wpackagist-plugin/so-widgets-bundle",
-            "version": "1.7.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
-                "reference": "tags/1.7.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.7.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/so-widgets-bundle/"
         },
         {
             "name": "wpackagist-plugin/ultimate-category-excluder",
@@ -764,7 +705,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "wpackagist-plugin/rest-api": 10,
-        "wp-api/basic-auth": 20,
         "jlm2017/theme-wp": 20,
         "jlm2017/jlm2017-wordpress-addons": 20,
         "guilro/wp-menu-export": 20
