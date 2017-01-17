@@ -58,7 +58,7 @@
     "wpackagist-plugin/contact-form-7": "^4.5",
     "wpackagist-plugin/ultimate-category-excluder": "^1.1",
     "wpackagist-plugin/vanilla-pdf-embed": "^0.0.8",
-    "jlm2017/theme-wp": "dev-master#fb1b1f39f93dafcda61849a770a58f521b05d56d",
+    "jlm2017/theme-wp": "dev-master",
     "jlm2017/jlm2017-wordpress-addons": "dev-master",
     "guilro/wp-menu-export": "dev-master"
   },
